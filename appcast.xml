@@ -3,6 +3,27 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.30</title>
+            <pubDate>Thu, 08 Oct 2026 20:13:30 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.30
+
+**Improved**
+- Every language reads more naturally. The wording in English, 简体中文, 繁體中文, 日本語, 한국어 and Deutsch was reviewed for each language's macOS terms.
+- The sidebar shows Mose's icon and name at its foot, and Settings sits right under Usage Stats.
+
+Requires macOS 15 or later.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.30/Mose-0.1.30.zip" length="7276276" type="application/octet-stream" sparkle:edSignature="HpEA4XZWI7KA1z2RRAvUW7eIywIqlcfKlYOcwmUeo9BdK4p3VGK3kr3IaBuwL8G3vzpprwjc52AsnepJC24oCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.30/Mose31-28.delta" sparkle:deltaFrom="28" length="821902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WkHp8/VavJbliGGHXt/Z5SHu1OQdvVkBbC6nck5kdIlfX8fNkUtqYaWUUE9VrY2SYXnz9APLwYN7TmQVvfPKCQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.30/Mose31-24.delta" sparkle:deltaFrom="24" length="1095270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h8i0uLr31uRD2V63iyiTxZ2pq2rnt254bfPrEsVluXeNsw4EMRQkRO1ycX/juiPThId2XySmy0y72WR/8sU9Cg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.27</title>
             <pubDate>Thu, 08 Oct 2026 18:34:55 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
