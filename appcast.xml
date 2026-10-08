@@ -3,6 +3,33 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.32</title>
+            <pubDate>Thu, 08 Oct 2026 20:25:41 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.32
+
+**New**
+- A ⋯ button next to Mose's name at the foot of the sidebar opens the website, GitHub, the release notes and Check for Updates….
+
+**Improved**
+- The sidebar's last section, with Usage Stats and Settings, is now called General.
+
+**Fixed**
+- Mose's icon and name are at the foot of the sidebar again, with Settings right under Usage Stats.
+
+Requires macOS 15 or later.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.32/Mose-0.1.32.zip" length="7290208" type="application/octet-stream" sparkle:edSignature="EQqazklRhJT7mV3Arjq4YglQo7OWtVaYFGnuYy8YpkPbon9Q7oeZMJQVQD/s7vgBhQhEwMiFfJDzEkJoyncZCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.32/Mose33-31.delta" sparkle:deltaFrom="31" length="433954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EKYheZAjjYSdoQwNXOyZMoZoKEBHo503RZXM5HoTaaRECpkhCLLwD3tvG2ZbvQ+/zvizYw+HiUb0oCeb1+i7AQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.32/Mose33-28.delta" sparkle:deltaFrom="28" length="846562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xpaevkVbSJwy8DCWLhj5f1ewJRBg0hSditXPZEmoey62rIgoSfUpxdwLZM6R4RdHJEMeerr90HY6j3/5MeVRBg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.32/Mose33-24.delta" sparkle:deltaFrom="24" length="1115914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1aqFKab7x16gzzbcRiE3eHyP/nw6n3QGlodEoRHNz8k4ZD8nu5HNF7NRUxzph94MKS1XAzrAs4yZIovTK8hgAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.30</title>
             <pubDate>Thu, 08 Oct 2026 20:13:30 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
@@ -46,40 +73,6 @@ Requires macOS 15 or later.
             <sparkle:deltas>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.27/Mose28-24.delta" sparkle:deltaFrom="24" length="735818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uEambiV7yPcUmxcYCWqVqBMm+5ltlSiJuRYD21lfJ7VUWN4ZBma6JJvw1HdONH3twA+q7bLzW6CmfanLyhL0Bg=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.23</title>
-            <pubDate>Thu, 08 Oct 2026 17:42:42 +0800</pubDate>
-            <link>https://github.com/linmi/mose/releases</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.23 — first public release
-
-Mose is a native macOS app for Logitech MX mice, and for mice from other makers too. It lives in the menu bar, with a full window for setting things up.
-
-**Buttons and gestures**
-- Remap any button to shortcuts, apps, Shortcuts, Mission Control, desktops and more, per app.
-- Gesture button: hold and move for desktop gestures; hold a thumb button and scroll for combos.
-- Standard (non-Logitech) mice: remap their buttons (including 6–8 and wheel tilt), and use any button as a gesture button.
-
-**Scrolling and pointer**
-- Smooth scrolling driven by the hi-res wheel, with settings per mouse.
-- Pointer speed and DPI presets, using System Settings' notches.
-
-**Devices**
-- MX Master 2S / 3 / 3S / 4, MX Anywhere 3 / 3S, MX Vertical, MX Ergo / Ergo S, plus a generic mode for other Logitech mice.
-- Logi Bolt pairing, several mice at once, Easy-Switch channels with host names, and the keyboard following the mouse.
-- Battery in the menu bar and the macOS Batteries widget, with low-battery notifications.
-- Device images are downloaded the first time a mouse appears.
-
-**And**
-- Usage statistics, launch at login, English, 简体中文, 繁體中文 and 日本語.
-- Mose now updates itself (Settings › Updates).
-
-Requires macOS 15 or later.
-]]></description>
-            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.23/Mose-0.1.23.zip" length="6778953" type="application/octet-stream" sparkle:edSignature="l2u4hSrykFJi3nLqjPO6INEe0+jxmX2bsz/o2CNUcMMtufNtoiScln5AsB6clLfsnytx9nnA33NhUqm0cGD0BA=="/>
         </item>
     </channel>
 </rss>
