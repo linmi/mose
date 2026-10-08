@@ -3,6 +3,30 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.27</title>
+            <pubDate>Thu, 08 Oct 2026 18:34:55 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.27
+
+**New**
+- A welcome tour on first launch: meet your mouse's buttons, allow Accessibility (the parts that need it carry a lock), try the gesture button and pick a few settings. Settings › About › Welcome tour shows it again.
+- Deutsch and 한국어.
+
+**Improved**
+- Settings are grouped by what you're doing (General, Battery, Buttons, Updates, Data, About), and each option's explanation is shown right under it.
+- The download opens on an install window: drag Mose to Applications.
+
+Requires macOS 15 or later.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.27/Mose-0.1.27.zip" length="6977532" type="application/octet-stream" sparkle:edSignature="fBQg8zKtGkvUZvaOY7DzQbGC+8dOVqtus6vRms5dLLFWx9aJl17SCVpzWdEHYZ0Ga0bSes/JZsH9azu27OuQBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.27/Mose28-24.delta" sparkle:deltaFrom="24" length="735818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uEambiV7yPcUmxcYCWqVqBMm+5ltlSiJuRYD21lfJ7VUWN4ZBma6JJvw1HdONH3twA+q7bLzW6CmfanLyhL0Bg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.23</title>
             <pubDate>Thu, 08 Oct 2026 17:42:42 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
