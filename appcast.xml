@@ -1,6 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Mose</title>
-  </channel>
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Mose</title>
+        <item>
+            <title>0.1.23</title>
+            <pubDate>Thu, 08 Oct 2026 17:42:42 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.23 — first public release
+
+Mose is a native macOS app for Logitech MX mice, and for mice from other makers too. It lives in the menu bar, with a full window for setting things up.
+
+**Buttons and gestures**
+- Remap any button to shortcuts, apps, Shortcuts, Mission Control, desktops and more, per app.
+- Gesture button: hold and move for desktop gestures; hold a thumb button and scroll for combos.
+- Standard (non-Logitech) mice: remap their buttons (including 6–8 and wheel tilt), and use any button as a gesture button.
+
+**Scrolling and pointer**
+- Smooth scrolling driven by the hi-res wheel, with settings per mouse.
+- Pointer speed and DPI presets, using System Settings' notches.
+
+**Devices**
+- MX Master 2S / 3 / 3S / 4, MX Anywhere 3 / 3S, MX Vertical, MX Ergo / Ergo S, plus a generic mode for other Logitech mice.
+- Logi Bolt pairing, several mice at once, Easy-Switch channels with host names, and the keyboard following the mouse.
+- Battery in the menu bar and the macOS Batteries widget, with low-battery notifications.
+- Device images are downloaded the first time a mouse appears.
+
+**And**
+- Usage statistics, launch at login, English, 简体中文, 繁體中文 and 日本語.
+- Mose now updates itself (Settings › Updates).
+
+Requires macOS 15 or later.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.23/Mose-0.1.23.zip" length="6778953" type="application/octet-stream" sparkle:edSignature="l2u4hSrykFJi3nLqjPO6INEe0+jxmX2bsz/o2CNUcMMtufNtoiScln5AsB6clLfsnytx9nnA33NhUqm0cGD0BA=="/>
+        </item>
+    </channel>
 </rss>
