@@ -3,6 +3,37 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.43</title>
+            <pubDate>Fri, 09 Oct 2026 17:43:59 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.43
+
+**New**
+- This Mac has its own page under Devices: a drawing of the Mac with each port and what's plugged into it, the charger, the battery and the displays. Click a port, the battery or a display for the details.
+- Cables: every cable with a chip is remembered. Name it and pick its colour, and see what it can carry (power, data, video), who made it, how often and how long it's been used, and whether it has dropped out or hit overcurrent. Cables without a chip show while they're plugged in.
+- Charging in plain words: running on the charger with the battery held near full, a cable rated below the charger, or slowing as the battery fills. A curve shows the power from the charger and what the Mac used over the last hour.
+- A notification when a plugged-in cable drops out or hits overcurrent. Turn it off in Settings › Battery.
+- Displays: whether each one runs at its best, and what holds it back (a hub keeping lanes for USB, a slow cable, or a setting). Change a display's size from the Mac page. A USB-C monitor that also charges the Mac shows both.
+- Hubs and docks: devices are listed by what they're plugged into, and Thunderbolt docks by name.
+- How each mouse, keyboard and receiver reaches the Mac, from its page: receiver, hub and port. Mose warns when a receiver shares a hub with a USB 3 device, which can disturb 2.4 GHz.
+- The menu bar shows this Mac and its ports.
+
+**Fixed**
+- Keyboards with mouse keys (many QMK keyboards, such as the NuPhy Kick75) show up as keyboards, not mice.
+
+Requires macOS 15 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.43/Mose-0.1.43.zip" length="10309906" type="application/octet-stream" sparkle:edSignature="WQs8YuNkVwZB+wovZj3d3et2ObYp81kRyj/XgWIILzUApSW7KgzHVNvEl8T4aPXdfgPsIMoiLJDXU7/Tm3MvAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.43/Mose82-56.delta" sparkle:deltaFrom="56" length="2022638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Svo4mHY+4ql9Znf/IaoD9eZdvYLMnqLswcLlqg8aMzNVbnS9MGwci//cLV93uFNK/B9m/qdn1ImlTEcKXXw1BQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.43/Mose82-54.delta" sparkle:deltaFrom="54" length="2056290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vHXQeQZCyHLMcXxmKENLgwRoui78Lgm+PeJQ6704126pwUuubceL1D/+wvj5KqEGjr+6ncTIQNgkaQXBsCzuBQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.43/Mose82-41.delta" sparkle:deltaFrom="41" length="3398010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Kj8DQJhO2o5qHoTVt7Wq7AKhRyFtf6gNFgvhmQs1+a2VaoJoriHr8+y7OglMIraYfeGi/E636yOOskNAa3oTAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.42</title>
             <pubDate>Fri, 09 Oct 2026 10:48:13 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
@@ -52,34 +83,6 @@ Requires macOS 15 or later.
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose54-41.delta" sparkle:deltaFrom="41" length="2387190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PHD69QxjumZdYGd/hNYqGM9ezYpXP4265J6py9cmQkrO9IeFFKC8gUvo/9gnwibmvR4C9IUiDYqvVJjbS3x2Bg=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose54-38.delta" sparkle:deltaFrom="38" length="2501094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lbuYzkHwz0eLDfvru3iOVI11kgeFC69FrRi3TOXaU7qG926uIvopOsLWyvPGFNAXNapptKmwgLarOvkUJpRnCw=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose54-33.delta" sparkle:deltaFrom="33" length="2673454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p/Z/5PC2d/7raqA0oBwJOpi3SCXKt9NXtPqJGKszY6HeyB9GoX7rDgMIkxHR8HtWKycPLk7m7Ti7VK7UERJrDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.40</title>
-            <pubDate>Thu, 08 Oct 2026 22:13:26 +0800</pubDate>
-            <link>https://github.com/linmi/mose/releases</link>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>0.1.40</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.40
-
-**New**
-- Trackpad gestures per app, like the mouse's buttons: add an app at the top right of the trackpad page and give it gestures of its own. They take over while that app is in front.
-- “N gestures set up” under the trackpad's name lists every gesture, global and per app; click one to edit it.
-
-**Improved**
-- The trackpad page is centred and quieter: the list beside it is gone, and the trackpad moves aside only while a gesture is being edited.
-- Drawing your fingers on the trackpad is now off by default. Turn it on with Show fingers in the bottom bar.
-
-Requires macOS 15 or later.
-]]></description>
-            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.40/Mose-0.1.40.zip" length="7700770" type="application/octet-stream" sparkle:edSignature="QLi+Vs+bzVJPQP0wpUKklmXuR7IEa0GxEYo/VaXrYGPGFIikTlz+TgdGlnUakWPPCdNT8dIPRaNIMY+Iu7gWDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.40/Mose41-38.delta" sparkle:deltaFrom="38" length="680690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GYT27Q8R3QfibH3QLX0klS2nym+8mH74fNVwCnMmZokZ88RFQh/TkH2JJ96CRWCoPlIkRQ1yJq7JhB344lOgCg=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.40/Mose41-33.delta" sparkle:deltaFrom="33" length="1079714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eJB+G3x642gc82OsIBDc4Gec1iot6dyhjvP0HLLVLlXCg0Tn0CyiOBNqPrHnWLmm2HTB5b9YDO7UoS9hnFMXDA=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.40/Mose41-31.delta" sparkle:deltaFrom="31" length="1096246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XGbV22GdI5XizSQbHsm8U4uUSf+IUhnwpzb4/iTKysJB+DsPhhmhr3CjoYRTzR6RheAqt+IB93oAnuRWZMZPCA=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.40/Mose41-28.delta" sparkle:deltaFrom="28" length="1395142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tX511RJOOXBe+XPRpTq5gwMW2ioryxuoQz2PU788bLmjPP0GJfNcNb0IN832GzcHMfih8rNBza6g1GxTd0IfBQ=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.40/Mose41-24.delta" sparkle:deltaFrom="24" length="1589262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sXuYSMOEeR2inqhVk7UdkSTr8KRBymeSrXV3xQwnVbTX1UwXF8BzTf1M2AZLVhsObxiMNlvujMl6pxclyH3VAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
