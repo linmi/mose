@@ -3,6 +3,29 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.44</title>
+            <pubDate>Fri, 09 Oct 2026 18:28:57 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>0.1.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.44
+
+**Improved**
+- A new welcome on first launch: what Mose can do, then the two permissions it needs, then straight into the app. macOS no longer asks for Input Monitoring before Mose has said why.
+- Allowing a permission is easier: System Settings opens at the right list, with Mose's icon beside it to drag in. This works everywhere Mose asks, not just on first launch.
+- Settings › Buttons shows Input Monitoring next to Accessibility, so you can see and change both in one place.
+
+Requires macOS 15 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.44/Mose-0.1.44.zip" length="10465382" type="application/octet-stream" sparkle:edSignature="Y57KnXyHRuZvWlK/X2pxvXoxbrzy+1DWkt+QW2Wpxp+7ExRD8STGFFEjVMbo7U9M7kV4t40VVOT5hbrZphGUAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.44/Mose84-82.delta" sparkle:deltaFrom="82" length="1277226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KrAjKEqtC2FmLvW23D5vud03DdQHnUV9x+UBJTn0/wXoT65UTxAVldBuThYfQyo7UvsfV+/WlzYZ8i0Yez6cAQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.44/Mose84-56.delta" sparkle:deltaFrom="56" length="2332898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d1iyKgps1HKltOjqq39RA5uCtxFJeFqyi4TK95HWrRCIp12wVhD4PZ/37GHyygAK4/fLYF8CcpMJHI8wqkqkDg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.44/Mose84-54.delta" sparkle:deltaFrom="54" length="2347722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o7k6RzZYZlG2bGrIicb40zr7ykkPbJw9s8toHi5xO/T/q8zTQhLqMWkEEHbtwbu0P1K+qtbx50k2isSyi2JJDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.43</title>
             <pubDate>Fri, 09 Oct 2026 17:43:59 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
@@ -52,37 +75,6 @@ Requires macOS 15 or later.
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.42/Mose56-54.delta" sparkle:deltaFrom="54" length="585986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wpkrcKnc6SXZiFlQxhuPs+0UbVFnBrcyCRhYBCZIxzf37Wrvt+O4zzSKjsQIW+s0HTfHZnkvJmOiWjttQQaEAQ=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.42/Mose56-41.delta" sparkle:deltaFrom="41" length="2406182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PpSL9n9LzcYFBOS8+oqAkpGHmBGm+PeEq+4z5zpbiA3Fne5Z/c3oCq28XrRtDyo+mFADfK9AcnMxQP3RBAqODw=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.42/Mose56-38.delta" sparkle:deltaFrom="38" length="2514322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C7KIaMHYAzJQaTdI4ZBe7Zp62TwiFG4j5Loj+pusZ3tvof02EDQOMySa/JQriHfz0hiCbWD1IHWD+zF8Ab1DCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.41</title>
-            <pubDate>Fri, 09 Oct 2026 10:15:48 +0800</pubDate>
-            <link>https://github.com/linmi/mose/releases</link>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.41
-
-**New**
-- Keyboards in the sidebar. Each keyboard gets a page that draws it with your layout and lights up the keys as you press them.
-- Remap keys: any key, with or without fn, everywhere or only in one app. Caps Lock and the modifier keys can be remapped too (Caps Lock → Escape, for example). macOS itself does those, so they work in password fields as well.
-- Logitech keyboards: battery, backlight, the top row as media keys or F1–F12, Easy-Switch channels, and remappable special keys.
-- Keystroke stats for each keyboard, by hour and by key, on its page and in Usage Stats. Only counts are kept, never what you type. Turn it off in Settings › Usage Stats.
-- Trackpad holds: rest three or four fingers, or one finger in a top corner, and the action stays held until you lift. The new Voice input (hold fn) action works with input methods that listen while fn is held.
-- Usage Stats can show a month, a quarter, a year or any range you choose, with a heatmap of the year.
-- 2.4 GHz receivers from other brands show up under Devices and wait for their mouse or keyboard to be switched on.
-
-**Fixed**
-- Mose could quit unexpectedly while recognising trackpad gestures.
-- After changing the language, Add Device and the trackpad page no longer mix two languages.
-
-Requires macOS 15 or later.
-]]></description>
-            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose-0.1.41.zip" length="9190340" type="application/octet-stream" sparkle:edSignature="t2p91eDwymGedI1CoXo20SKZgpy1cAvnfOI2s70DzCtwxVyJJX1UXuChrL/ILGFdR5Ywroy2vdVbxpcNScsWAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose54-41.delta" sparkle:deltaFrom="41" length="2387190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PHD69QxjumZdYGd/hNYqGM9ezYpXP4265J6py9cmQkrO9IeFFKC8gUvo/9gnwibmvR4C9IUiDYqvVJjbS3x2Bg=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose54-38.delta" sparkle:deltaFrom="38" length="2501094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lbuYzkHwz0eLDfvru3iOVI11kgeFC69FrRi3TOXaU7qG926uIvopOsLWyvPGFNAXNapptKmwgLarOvkUJpRnCw=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.41/Mose54-33.delta" sparkle:deltaFrom="33" length="2673454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p/Z/5PC2d/7raqA0oBwJOpi3SCXKt9NXtPqJGKszY6HeyB9GoX7rDgMIkxHR8HtWKycPLk7m7Ti7VK7UERJrDg=="/>
             </sparkle:deltas>
         </item>
     </channel>
