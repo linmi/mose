@@ -4,6 +4,45 @@
         <title>Mose</title>
         <item>
             <title>0.1.47</title>
+            <pubDate>Sat, 10 Oct 2026 20:49:58 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>146</sparkle:version>
+            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.47 Beta (146)
+
+This is a beta: new features arrive here first, before they've had as much testing. To go back, pick Stable in Settings › Updates › Update channel, and Mose moves over with the next stable version.
+
+**New**
+- Game controllers: Xbox, DualSense, DualShock 4, Switch Pro and Joy-Con pads get a page with a live button test, their battery and, on PlayStation pads, the light bar colour.
+- Map a controller's buttons and sticks to actions: a stick can move the pointer or scroll. Presets for mouse and keyboard, media and presentations. Mose stands aside while a game is in front.
+- Mouse buttons can do something else when pressed twice or held.
+- Layer 2: hold one mouse button and the others switch to a second set of actions.
+- New actions for every device: open a link, type text, run a shell command.
+- Presenting: a laser pointer, a spotlight and find-the-pointer, for any button.
+- Clean Mode holds back every key, click and touch for a minute, so you can wipe the keyboard and trackpad. Hold Esc to end it early.
+- A notification when a charging device is full.
+- Settings history: Mose keeps a copy of your settings as you change them, and Settings › Data can restore any of them.
+
+**Improved**
+- Siri Remote: the volume buttons work while Mose has the remote, and the touch surface moves the pointer again.
+- Siri Remote: Delete and Forward Delete are in the action list.
+- Siri Remote: callouts sit on cards like a mouse's, the panel opens only for what you pick, and the sidebar shows the remote's generation only when two remotes share a name.
+
+Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose-0.1.47-beta.146.zip" length="13022905" type="application/octet-stream" sparkle:edSignature="BxKqID9hFz5+iZdCUh+bWYMGbP31IHkLX4AYNcPIVA8Px0DstwAv2gsMgTBKnhAH/IFR9T1NU/5NHEDYZFxmCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-134.delta" sparkle:deltaFrom="134" length="2371570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8wD/n1NxoKvw2RjLfy5zQ9ehL0LtiZ0TRi/seWlOoCJx1eK4l6eoknFuQg65flDURwjKxyo70hH3qvlmJV6TDg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-127.delta" sparkle:deltaFrom="127" length="3058914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MB+2x/A7nHVcyKmz8p4W2gHYoFqVAuy3pBFMmvWJJz9hlPxbGHIl4Yalt35xoTaumr/teA1FaZxwsOGrhUlEBA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-112.delta" sparkle:deltaFrom="112" length="4327762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bJd59J9ngTP81+va4N9FQuJvCj3AUI0EfdxA8oyKJo5sKrYc6hg5gp/iDTXrLW98jQLlMkhkplcv2X1lldMiBw=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-95.delta" sparkle:deltaFrom="95" length="4712086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5bUHVwxS9++CvB3wgGjJdpn0zrJMkOugH91uv0/P/K7ZYxg1LL9Vex40ZY+mqbl75RKebarWTUVJaHMoVr3DCg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-84.delta" sparkle:deltaFrom="84" length="4953778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d2UBpYGT5Ip4exKO2Bz7c5+MzmaBUQ8Xo4rFvM8L9DnDDvkI6h0Pof6Zp+pTMAnesy0gYYMRYKBvSJV9KBrWAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.47</title>
             <pubDate>Sat, 10 Oct 2026 17:50:49 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
             <sparkle:channel>beta</sparkle:channel>
