@@ -4,6 +4,40 @@
         <title>Mose</title>
         <item>
             <title>0.1.47</title>
+            <pubDate>Sat, 10 Oct 2026 17:50:49 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>134</sparkle:version>
+            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.47 Beta (134)
+
+This is a beta: new features arrive here first, before they've had as much testing. To go back, pick Stable in Settings › Updates › Update channel, and Mose moves over with the next stable version.
+
+**New**
+- Siri Remote: use an Apple TV remote with your Mac (all three generations). Each button can do one thing when pressed, another when pressed twice and another when held, for every app or just one.
+- The remote's touch surface moves the pointer and scrolls with two fingers; taps and swipes run actions. On the newer remotes, circling a finger around the clickpad's edge scrolls, sets the volume or zooms.
+- Hold the Siri button to talk to voice input apps that listen while fn is held.
+- Mose pairs the remote itself: hold its two pairing buttons near the Mac and Mose finds and connects it, with nothing to click in Bluetooth settings.
+- The remote's battery shows on its page and in the menu bar.
+- Presets for media, presentations and browsing set up the whole remote in one click.
+
+**Improved**
+- Low-battery notifications come at 20 % and 5 % for every device, the level where the battery bar turns red, and now for Siri Remotes too.
+
+Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose-0.1.47-beta.134.zip" length="12361062" type="application/octet-stream" sparkle:edSignature="x9FngmC7euaV7OnSqlK9unqpxg4HEanMp/2dnPj3AcdMD0uaDriEfW9yhl7iztrjeeFl05NzLi4UFJIKTdC4Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-127.delta" sparkle:deltaFrom="127" length="2133630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JnhfbFRLZjY83aFh+6OjWMIiNfVHAcS54TGkdedEWCp4iYqVjpN4kIUcXyTr6fZjWDHejHdgHeFjeFntyVqpBA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-112.delta" sparkle:deltaFrom="112" length="3526370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1LWn3Y7zROeoTj76nLyz+MyxbzQjisKywGi2VXm5Gj7Cpx3U5ksQlHb/ADvC15/udwfOzvh7qCKiB7U+LC4OCg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-95.delta" sparkle:deltaFrom="95" length="3953230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0YI6+87eN5jNH13lohqvHRPNMPF+j0k7V2lDmwcefm+8QHvSOcYuwrz9QlRoLtkzk57nqQUn7rbMLFFBb3CXBg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-84.delta" sparkle:deltaFrom="84" length="4204734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eD95FGhx3aPbI0cFazc2A6VAsHAV5qRqwQO4UbEVOnlKm8K24S0XoBf5yZQnMOWpQk9v2PqHTQ3VR3LVbsAcAQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-82.delta" sparkle:deltaFrom="82" length="4369066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rImlNPjAxJx9w8zDJf4XkV6CHPPAXBThPvQThBv1g4qX7N8w6KmcLq3MY1K3S7hEpdTDFSKemTFndhmD7CeRAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.47</title>
             <pubDate>Sat, 10 Oct 2026 15:16:56 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
             <sparkle:channel>beta</sparkle:channel>
