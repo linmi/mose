@@ -4,6 +4,47 @@
         <title>Mose</title>
         <item>
             <title>0.1.47</title>
+            <pubDate>Sat, 10 Oct 2026 21:42:10 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>155</sparkle:version>
+            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.47
+
+**New**
+- Siri Remote: use an Apple TV remote with your Mac (all three generations). Each button can do one thing when pressed, another when pressed twice and another when held, for every app or just one. Mose pairs the remote itself: hold its two pairing buttons near the Mac, with nothing to click in Bluetooth settings.
+- The remote's touch surface moves the pointer and scrolls with two fingers; taps and swipes run actions. On the newer remotes, circling a finger around the clickpad's edge scrolls, sets the volume or zooms. Hold the Siri button to talk to voice input apps that listen while fn is held.
+- Game controllers: Xbox, DualSense, DualShock 4, Switch Pro and Joy-Con pads get a page with a live button test and their battery. Map their buttons and sticks to actions; Mose stands aside while a game is in front.
+- Mouse buttons can do something else when pressed twice or held, and one button can switch the others to a second layer of actions while it's held.
+- New actions for every device: open a link, type text, run a shell command, and for presenting a laser pointer, a spotlight and find-the-pointer.
+- Clean Mode holds back every key, click and touch for a minute, so you can wipe the keyboard and trackpad.
+- Usage Stats prints any day, week, month or year as a receipt out of the notch, in three layouts, to copy or save.
+- USB drives appear under Devices with a page of their own and a full-window Speed Test.
+- Thunderbolt ports show the link speed that was actually negotiated, and the cable page lists what the cable's chip reports.
+- A notification when a charging device is full; low-battery notifications come at 20 % and 5 % for every device.
+- Settings history: Mose keeps a copy of your settings as you change them, and Settings › Data can restore any of them.
+- Settings › Updates has an update channel: Stable or Beta.
+- Mose runs on macOS 14 Sonoma.
+
+**Improved**
+- A Studio Display on Thunderbolt reads as running at its best instead of blaming the cable, and Thunderbolt ports are called "Thunderbolt 1", "Thunderbolt 2"….
+- A charger that keeps the cable to itself no longer makes the cable look unmarked.
+- A display's own USB side shows as part of the display, receivers get their icon, and an empty hub says so.
+- The sidebar scrolls in a short window, with Mose kept at the bottom.
+
+Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47/Mose-0.1.47.zip" length="13273437" type="application/octet-stream" sparkle:edSignature="GS9uBVmuJBpzCkBfS4gu89WXil7QEAK0tKj9i9pLlTgAfNWh8LitJdsPOnji4324ci/STOe6/NCcmDTY1ZYnBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47/Mose155-146.delta" sparkle:deltaFrom="146" length="1675782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u9sjWKTtXtzLAMgogKLDhyiDQJrG41V/r6aIz3Zl8ZLm2OlB1UfpAp7jPuZcnp20eez6G0s5GOul9dZsYbhlAQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47/Mose155-134.delta" sparkle:deltaFrom="134" length="2744942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9TDFsbSxgea4tDqXGYpxSyK/QYYab0pgrkKSUYn0pl/gmPRxXIy65LAqQWSao+kDo8Iks/9MSyrCBZK3p4B5AQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47/Mose155-127.delta" sparkle:deltaFrom="127" length="3379870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="F2jXP4sk4MDlVwtMhta0eLr0F+wOIgX/qjW4rwrN7QAJeK1W8uMdQJMsxUlxiWbQQTj+39maUELsJ2+Ttae4Ag=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47/Mose155-112.delta" sparkle:deltaFrom="112" length="4586766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h5cTbdy3DD173jZL2rBkFffR/EQM6kdVhdqsxqyd2/gjlvAasfFT5Ab30VyEKW4Xr6Z6p6UB4XW5Ib/sH+K+BA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47/Mose155-95.delta" sparkle:deltaFrom="95" length="4959442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aBp9Nvj62x7e5q1YUkQQ7MqbelpNfflsRf8fzyYOL5Cwpa3zbbaTqgIC9iaIf2OCCCR2plXVywS6kkJbOau2DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.47</title>
             <pubDate>Sat, 10 Oct 2026 20:49:58 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -39,79 +80,6 @@ Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple sil
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-112.delta" sparkle:deltaFrom="112" length="4327762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bJd59J9ngTP81+va4N9FQuJvCj3AUI0EfdxA8oyKJo5sKrYc6hg5gp/iDTXrLW98jQLlMkhkplcv2X1lldMiBw=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-95.delta" sparkle:deltaFrom="95" length="4712086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5bUHVwxS9++CvB3wgGjJdpn0zrJMkOugH91uv0/P/K7ZYxg1LL9Vex40ZY+mqbl75RKebarWTUVJaHMoVr3DCg=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.146/Mose146-84.delta" sparkle:deltaFrom="84" length="4953778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d2UBpYGT5Ip4exKO2Bz7c5+MzmaBUQ8Xo4rFvM8L9DnDDvkI6h0Pof6Zp+pTMAnesy0gYYMRYKBvSJV9KBrWAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.47</title>
-            <pubDate>Sat, 10 Oct 2026 17:50:49 +0800</pubDate>
-            <link>https://github.com/linmi/mose/releases</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>134</sparkle:version>
-            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.47 Beta (134)
-
-This is a beta: new features arrive here first, before they've had as much testing. To go back, pick Stable in Settings › Updates › Update channel, and Mose moves over with the next stable version.
-
-**New**
-- Siri Remote: use an Apple TV remote with your Mac (all three generations). Each button can do one thing when pressed, another when pressed twice and another when held, for every app or just one.
-- The remote's touch surface moves the pointer and scrolls with two fingers; taps and swipes run actions. On the newer remotes, circling a finger around the clickpad's edge scrolls, sets the volume or zooms.
-- Hold the Siri button to talk to voice input apps that listen while fn is held.
-- Mose pairs the remote itself: hold its two pairing buttons near the Mac and Mose finds and connects it, with nothing to click in Bluetooth settings.
-- The remote's battery shows on its page and in the menu bar.
-- Presets for media, presentations and browsing set up the whole remote in one click.
-
-**Improved**
-- Low-battery notifications come at 20 % and 5 % for every device, the level where the battery bar turns red, and now for Siri Remotes too.
-
-Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
-]]></description>
-            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose-0.1.47-beta.134.zip" length="12361062" type="application/octet-stream" sparkle:edSignature="x9FngmC7euaV7OnSqlK9unqpxg4HEanMp/2dnPj3AcdMD0uaDriEfW9yhl7iztrjeeFl05NzLi4UFJIKTdC4Dg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-127.delta" sparkle:deltaFrom="127" length="2133630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JnhfbFRLZjY83aFh+6OjWMIiNfVHAcS54TGkdedEWCp4iYqVjpN4kIUcXyTr6fZjWDHejHdgHeFjeFntyVqpBA=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-112.delta" sparkle:deltaFrom="112" length="3526370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1LWn3Y7zROeoTj76nLyz+MyxbzQjisKywGi2VXm5Gj7Cpx3U5ksQlHb/ADvC15/udwfOzvh7qCKiB7U+LC4OCg=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-95.delta" sparkle:deltaFrom="95" length="3953230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0YI6+87eN5jNH13lohqvHRPNMPF+j0k7V2lDmwcefm+8QHvSOcYuwrz9QlRoLtkzk57nqQUn7rbMLFFBb3CXBg=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-84.delta" sparkle:deltaFrom="84" length="4204734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eD95FGhx3aPbI0cFazc2A6VAsHAV5qRqwQO4UbEVOnlKm8K24S0XoBf5yZQnMOWpQk9v2PqHTQ3VR3LVbsAcAQ=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.134/Mose134-82.delta" sparkle:deltaFrom="82" length="4369066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rImlNPjAxJx9w8zDJf4XkV6CHPPAXBThPvQThBv1g4qX7N8w6KmcLq3MY1K3S7hEpdTDFSKemTFndhmD7CeRAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.47</title>
-            <pubDate>Sat, 10 Oct 2026 15:16:56 +0800</pubDate>
-            <link>https://github.com/linmi/mose/releases</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>127</sparkle:version>
-            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.47 Beta (127)
-
-This is a beta: new features arrive here first, before they've had as much testing. To go back, pick Stable in Settings › Updates › Update channel, and Mose moves over with the next stable version.
-
-**New**
-- USB drives appear under Devices with a page of their own: free space, volumes, the drive's details, and how fast its link runs compared with what the drive can do.
-- Speed Test fills the window with a live chart of sequential and 4K reads and writes, then shows the results in the corner.
-- Drives that don't speak USB-PD, like most portable SSDs, get a verdict on their port: the speed they run at, what they can do, and a hint when the cable holds them back.
-- Thunderbolt ports show the link speed that was actually negotiated, and say when the cable or a single lane holds it back.
-- The cable page lists what the cable's chip reports: active or passive, retimer or redriver, optical, and more.
-- Settings › Updates has an update channel: Stable or Beta.
-- Mose runs on macOS 14 Sonoma.
-
-**Improved**
-- A Studio Display on Thunderbolt reads as running at its best (5K, compressed) instead of blaming the cable.
-- Thunderbolt ports are called "Thunderbolt 1", "Thunderbolt 2"…, including on cables plugged in before.
-- A display's own USB side shows as part of the display, receivers get their icon, and an empty hub says so.
-- Charger profiles show amps with a decimal where needed, like 20 V × 4.7 A.
-- The sidebar scrolls in a short window, with Mose kept at the bottom.
-
-Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
-]]></description>
-            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose-0.1.47-beta.127.zip" length="11562287" type="application/octet-stream" sparkle:edSignature="BVYVZlel/kTwaV1ZbkcLXTAExGbd6XXYy/ZSyTTdjjqsKLXIqpD1jqEr5TFTVOTNn0rvtazctP6DNLnBx8mXDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-112.delta" sparkle:deltaFrom="112" length="2658770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="32fHpgx9Z9a5xH2xpvpaeIO56d/E/lbpKPEy7MDvXRhE3+RbFwMe+qUxrCAF3HGGF343T9zZkfX8keRl2NfhCg=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-95.delta" sparkle:deltaFrom="95" length="3148882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hI/8HejNg1UmtePYCIwbS7oNNT9h0orOOc0fkQYN4CMkNaFT9XghU6ZSElZeo9FonLR+c7e/WLXTGRjBRrE0Cg=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-84.delta" sparkle:deltaFrom="84" length="3429990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6+e8RkEoq0DHVy2Pr+vfGltD2OErHdISxeshZFTZe0sygE16z+8y9RLC1M3/EFdxK1I6EqHfHe3r0Du/Wj8sAA=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-82.delta" sparkle:deltaFrom="82" length="3618102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2o3hgdjrbCwaKGFxYN4a9NGNCq2ptw19wHwLwiw3F2+0U97m9UqPiWBX6qbyR5QsM8+Fu/4Q8r21cp5naKuMBQ=="/>
-                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-56.delta" sparkle:deltaFrom="56" length="4196114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7kYJ+R16BIaN+bLW1IHYnfbZq5Fihycp4deromveAbmSRsUnyG/pDdPuGi9RKI0eTCuPeZX8us4m+K6Y7/pCCg=="/>
             </sparkle:deltas>
         </item>
         <item>
