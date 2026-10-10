@@ -3,6 +3,45 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.47</title>
+            <pubDate>Sat, 10 Oct 2026 15:16:56 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.47 Beta (127)
+
+This is a beta: new features arrive here first, before they've had as much testing. To go back, pick Stable in Settings › Updates › Update channel, and Mose moves over with the next stable version.
+
+**New**
+- USB drives appear under Devices with a page of their own: free space, volumes, the drive's details, and how fast its link runs compared with what the drive can do.
+- Speed Test fills the window with a live chart of sequential and 4K reads and writes, then shows the results in the corner.
+- Drives that don't speak USB-PD, like most portable SSDs, get a verdict on their port: the speed they run at, what they can do, and a hint when the cable holds them back.
+- Thunderbolt ports show the link speed that was actually negotiated, and say when the cable or a single lane holds it back.
+- The cable page lists what the cable's chip reports: active or passive, retimer or redriver, optical, and more.
+- Settings › Updates has an update channel: Stable or Beta.
+- Mose runs on macOS 14 Sonoma.
+
+**Improved**
+- A Studio Display on Thunderbolt reads as running at its best (5K, compressed) instead of blaming the cable.
+- Thunderbolt ports are called "Thunderbolt 1", "Thunderbolt 2"…, including on cables plugged in before.
+- A display's own USB side shows as part of the display, receivers get their icon, and an empty hub says so.
+- Charger profiles show amps with a decimal where needed, like 20 V × 4.7 A.
+- The sidebar scrolls in a short window, with Mose kept at the bottom.
+
+Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose-0.1.47-beta.127.zip" length="11562287" type="application/octet-stream" sparkle:edSignature="BVYVZlel/kTwaV1ZbkcLXTAExGbd6XXYy/ZSyTTdjjqsKLXIqpD1jqEr5TFTVOTNn0rvtazctP6DNLnBx8mXDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-112.delta" sparkle:deltaFrom="112" length="2658770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="32fHpgx9Z9a5xH2xpvpaeIO56d/E/lbpKPEy7MDvXRhE3+RbFwMe+qUxrCAF3HGGF343T9zZkfX8keRl2NfhCg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-95.delta" sparkle:deltaFrom="95" length="3148882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hI/8HejNg1UmtePYCIwbS7oNNT9h0orOOc0fkQYN4CMkNaFT9XghU6ZSElZeo9FonLR+c7e/WLXTGRjBRrE0Cg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-84.delta" sparkle:deltaFrom="84" length="3429990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6+e8RkEoq0DHVy2Pr+vfGltD2OErHdISxeshZFTZe0sygE16z+8y9RLC1M3/EFdxK1I6EqHfHe3r0Du/Wj8sAA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-82.delta" sparkle:deltaFrom="82" length="3618102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2o3hgdjrbCwaKGFxYN4a9NGNCq2ptw19wHwLwiw3F2+0U97m9UqPiWBX6qbyR5QsM8+Fu/4Q8r21cp5naKuMBQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.47-beta.127/Mose127-56.delta" sparkle:deltaFrom="56" length="4196114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7kYJ+R16BIaN+bLW1IHYnfbZq5Fihycp4deromveAbmSRsUnyG/pDdPuGi9RKI0eTCuPeZX8us4m+K6Y7/pCCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.46</title>
             <pubDate>Sat, 10 Oct 2026 00:50:59 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
@@ -32,6 +71,8 @@ Requires macOS 15 or later. Ports, cables and displays need a Mac with Apple sil
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.46/Mose112-95.delta" sparkle:deltaFrom="95" length="1797178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EyqHSOXJ16YsDVHJVo5vRg3UD5dewo7cnkA7HFTNTqM4GjSLfmg5EesVu/ZtcWFOnxSxbCjQgcR03widXO/rBg=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.46/Mose112-84.delta" sparkle:deltaFrom="84" length="2190986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1gY9zuRUO9uC9bC3WUAcixRyCer4LXErpmNsySvTAidQn8uEx4oY2wVPXmeWvflITXZS2ZKDqepru99Rf3DXAA=="/>
                 <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.46/Mose112-82.delta" sparkle:deltaFrom="82" length="2403554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ayk4/yVNt9DAAXFvLMNzwd5PhemqkuyjybMk8CbAgQOToxS/NO+W3fqBOucxRsiKZ2ToEuoP5V+XMjXvC/DaCg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.46/Mose112-56.delta" sparkle:deltaFrom="56" length="3251010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KABjoAcaxDaPLMa78v+vbz9Ubrzo7f7AZJJUnaNx/VtEnRiVeouoayIVup5PS9i2ngW8cX8MbykiTzm2nD79BQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.46/Mose112-54.delta" sparkle:deltaFrom="54" length="3262046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jF6h72riE2OAMl4nWb5w0WutI0RApxAMfsD0SRPk0xvviqXagblZ7p6Jk9wdIme7iKum7EMfuN9yCo9fRe7fDA=="/>
             </sparkle:deltas>
         </item>
         <item>
