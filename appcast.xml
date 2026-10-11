@@ -3,6 +3,52 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.48</title>
+            <pubDate>Sun, 11 Oct 2026 17:39:01 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>0.1.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.48
+
+**New**
+- Computers: turn on "Find other computers" on each Mac running Mose, pair them with a six-digit code, and drag them into place the way they sit on your desk.
+- Push the pointer past the edge where another computer sits and your Logitech mouse switches over to it, with your keyboards following. Choose how: push past the edge, hold ⌃, or just touch it.
+- The clipboard moves with the mouse, or follows every copy if you prefer. Passwords copied from a password manager stay put.
+- Send files between your computers: drop them on a computer on the Computers page, on the Mose icon in the menu bar, or at the screen edge where that computer sits. Progress and received files show in the notch, transfers carry on after a network hiccup, and files arrive in Downloads. Files you copy in Finder can be pasted on the computer the mouse moves to.
+- Settings › Files: accept files from your computers without asking, or answer each one, and choose where they're saved.
+- Scene Recipes: ready-made setups for each of your devices, each played as a short scene, including recipes that go into an app's own settings. Save your own setup as a recipe from any device page, and switch your recipes on and off from the menu bar.
+- New actions: mute the microphone, turn displays off, lock the screen, move windows, click lock, and three- and four-finger pinches.
+- Keyboards: Caps Lock and modifier keys can do one thing when tapped and another when held, with a Hyper layer and switching input sources. Other makers' Bluetooth keyboards show their battery.
+- Mouse: an action for each step of the thumb wheel, for each wheel step while a button is held, and for each gesture direction.
+- Trackpad edge sliders: an action for each step, and sliders for one app only.
+- Xiaomi Bluetooth Remote 2 and 2 Pro: their buttons, a page drawn true to size, and the microphone while the voice button is held.
+- On screen: device, battery, cable and drive events come out of the notch (or a glass strip at the top without one), and a gesture the pointer is sure of turns the pointer into a picture of what letting go will do.
+- App Profiles for websites: Meet, YouTube and Figma in the browser.
+
+**Improved**
+- Add Device: one search, with the steps acted out as you go.
+- Haptic feedback has four strengths on every mouse that has it.
+- Every device starts folded in the menu bar.
+- Smooth scrolling is off for newly added mice; your current mice keep what you set.
+- Intel Macs show their battery and their marketing name.
+- The Accessibility switch stays visible while Mose waits behind System Settings.
+
+**Fixed**
+- A crash with some Logi Bolt receivers.
+
+Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.48/Mose-0.1.48.zip" length="16039475" type="application/octet-stream" sparkle:edSignature="s6nYqGn3DJ0JyuZOc8KlieZbPVpJ78cQxaN4cNnRjwzUHfhNyLpvEvtKZ8/SC8dXe619+hC1X55RB0EEM5uuCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.48/Mose209-155.delta" sparkle:deltaFrom="155" length="5646242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u9XGRSoaVUq+Xt9Sj9pIRRRZ2PIn8SV1NGjJqFYUkhoEVJU6/394VCFCE4iKyvUShaKyRyBhpJz3jEcgU3/1AA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.48/Mose209-146.delta" sparkle:deltaFrom="146" length="5880918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JetFyTJyeYwM/yabAwwbvlyqVJtgjp7dV+pYwaUZ1Ecex9PNNvXeZRGP2hCmxWjJ8kShymdKRZvkZ1NGOnIYBw=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.48/Mose209-134.delta" sparkle:deltaFrom="134" length="6393694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sEzEaQWcjuYUdLHXlgc8NfA1CeSxa0qYk+nf8wApz3WtMK6PGBq/2na3l6f0r4COgeIVDNS1vu+C1rlWiLRpBw=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.48/Mose209-127.delta" sparkle:deltaFrom="127" length="6721186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MVPC8JNSlGem1e0HDhCfKv9o8fTw0KC1Busvss6LmfFp/AJgcj8ssWZIV7X2B29mzsF27jRpJiFjVPFwoYyfBA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.48/Mose209-112.delta" sparkle:deltaFrom="112" length="7627878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/qhZ7z2GP4tOuTT567q2/DsUbMwMRg62HxRano2WPXWy6VJj0tvmWRFAVF7fBdRfdWyv1OweG97YSvQpbwr7DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.47</title>
             <pubDate>Sat, 10 Oct 2026 21:42:10 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
