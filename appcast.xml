@@ -3,6 +3,51 @@
     <channel>
         <title>Mose</title>
         <item>
+            <title>0.1.49</title>
+            <pubDate>Mon, 12 Oct 2026 05:22:12 +0800</pubDate>
+            <link>https://github.com/linmi/mose/releases</link>
+            <sparkle:version>492</sparkle:version>
+            <sparkle:shortVersionString>0.1.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mose 0.1.49
+
+**New**
+- Home: a page that greets you with your Mac and its devices, including the ones wired into its ports. The sidebar is flatter, and App Profiles and Quick Actions are now tabs of Scene Recipes.
+- AI: translate or polish selected text from a mouse button, shown in place, on a card or from the notch; polish what you just dictated; translate or copy the text in part of the screen; read text aloud. Pick a service for each job in Settings › AI, including free Microsoft and Google translation.
+- Scene Recipes for reading and writing with AI: translate, polish, talk then tidy up, and translate text on screen.
+- Window actions: close, full screen, cycle and unminimize windows, move a window to the display on any side, halves, quarters, thirds and almost maximize, then back to its size; quit, hide or hide other apps; new and close tab.
+- E-readers: readers that connect over USB show their battery and storage, and you can drag books onto their page to send them to the reader.
+- Trackpad corners for two and three fingers.
+- Place gestures: on a window's title bar, a Dock icon or the empty menu bar, a trackpad gesture or a turn of the mouse wheel runs that place's action.
+- Add Device pairs mice and keyboards with a Logitech Unifying receiver.
+
+**Improved**
+- Computers find each other on networks that block discovery, and remember where they last met.
+- File transfers keep the Mac awake and pick up again right after sleep or a network change.
+- When a file can't be saved, Mose says why and saves to Downloads instead. A file that changes while it's being sent fails on its own and is named; the rest arrive.
+- Folders with thousands of small files send about nine times faster.
+- Receiving large files takes less memory, and less of it stays in use afterwards.
+- The Computers page says when the firewall stops other Macs from reaching this one.
+- The menu bar's Files card keeps Recent folded until you open it.
+- Smooth scrolling feels like a trackpad, with momentum.
+- Mice and keyboards reconnect more reliably after sleep, re-pairing and unplugging.
+
+**Fixed**
+- Transfers to a folder on an external drive or disk image were refused as out of space.
+- A computer that quit in the middle of sending could keep new transfers from it waiting for ten minutes.
+
+Requires macOS 14 or later. Ports, cables and displays need a Mac with Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.49/Mose-0.1.49.zip" length="17979162" type="application/octet-stream" sparkle:edSignature="Evglo7RnhRHhIQ3X1zyDk1OetWLO/VdrNrL8+cP677H/k/BoeUwuMVIOgEijGRpftkWIDw6KzEvPD70D+gLEDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.49/Mose492-209.delta" sparkle:deltaFrom="209" length="5023326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="btSQSnx0bMCxQKzbDnAMMN+ZJdUmvCQnTU57H/oL/uxLXvebI37UXDUL88SZmdJw/sumAAY1HaksndDbXWXdDQ=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.49/Mose492-155.delta" sparkle:deltaFrom="155" length="7702434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7vv+aZR/Sclyu1kxrD9gMjU5WskR5mMM/guhH0fxPT7HRnjoI0Do0kovuALkm4vHajTObycOZBrBZUI4JjTsDg=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.49/Mose492-146.delta" sparkle:deltaFrom="146" length="7910350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XuR35DI5tfRTJD8vrBQh255TJookuP6tVeBF4fTa7ltU8yI6srRXRq2hFVgIX6/KX/t0ga/0SIjXPsIBkI3tAw=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.49/Mose492-134.delta" sparkle:deltaFrom="134" length="8360946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="17A3w7ByNEWhLr3FudCmDTEbOHTujawBVO0hUvPnzz2rFYVZZODw3YJF0RI2pvY675+ooaYdXGJKZnmSnilgCA=="/>
+                <enclosure url="https://github.com/linmi/mose/releases/download/v0.1.49/Mose492-127.delta" sparkle:deltaFrom="127" length="8670690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3UN5cDHSyBkarXJpS6dYmHAzdG7frYQpNiOJn3emwK2Ze2Iooinzb3j0++QHKmMPokoshAOLdjm0dg1HFp5YDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.48</title>
             <pubDate>Sun, 11 Oct 2026 17:39:01 +0800</pubDate>
             <link>https://github.com/linmi/mose/releases</link>
